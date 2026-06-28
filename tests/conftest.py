@@ -83,7 +83,7 @@ def basket_page(browser):
 
 
 @pytest.fixture()
-def authorized_user(browser, login_page):
+def authorized_user(login_page):
     login_page.open_login_page()
     login_page.register_new_user()
     login_page.should_be_authorized_user()
