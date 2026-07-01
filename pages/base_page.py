@@ -21,6 +21,8 @@ class BasePage:
 
         self.USER_ICON_LOCATOR = ("css selector", ".icon-user")
 
+        self.PRODUCTS_CATALOGUE_URL = "https://selenium1py.pythonanywhere.com/catalogue"
+
     def open(self, url):
         self.BROWSER.get(url)
 
