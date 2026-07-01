@@ -1,0 +1,1 @@
+[{"uid":"4c155250eb6329ed","name":"Authorized user can add product to basket","time":{"start":1781769755051,"stop":1781769757194,"duration":2143},"status":"passed","severity":"normal"},{"uid":"167b57a4b5f492de","name":"Authorized user see no messages on Product page","time":{"start":1781769747632,"stop":1781769753194,"duration":5562},"status":"passed","severity":"normal"}]
